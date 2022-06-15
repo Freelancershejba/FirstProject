@@ -1,0 +1,32 @@
+
+.form_stytle{
+    box-shadow: 0px 0px 8px #898f89;
+}
+.form_header {
+    border-bottom: 2px solid darkgrey;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.form_header h1 {
+    color: #01ff01;
+}
+.form_header h3 {
+    color: coral;
+}
+.form_stytle .form-label, .sm {
+    color: #023e02;
+    font-weight: bold;
+}
+.form_stytle .sm2{
+    color:#696969;
+}
+.Red_alert{
+    color:red;
+    font-size: 14px;
+    display: inline-block;
+}
+.Green_alert{
+    color:Green;
+    font-weight: bold;
+    font-size: 24px;
+}

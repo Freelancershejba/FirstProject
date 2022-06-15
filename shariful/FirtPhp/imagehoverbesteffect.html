@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .image{
+        height: 600px;
+        width: 600px;
+        margin: 0 auto;
+        position: relative;
+        
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .image::after{
+        content: '';
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color:rgb(230, 232, 229);
+        margin: auto;
+        transition: all .4s;
+        opacity: 0;
+        
+    }
+
+    .image:hover::after{
+        width: 0;
+        opacity: .5;
+    }
+
+
+    .image::before{
+        content: '';
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color:rgb(230, 232, 229);
+        margin: auto;
+        transition: all .4s;
+        opacity: 0;
+    }
+    .image:hover::before{
+        height: 0;
+        opacity: .5;
+    }
+    h1{
+        margin: 10px 0;
+        text-align: center;
+    }
+
+
+
+
+</style>
+<body>
+    <h1>Best Image Hover Effect</h1>
+    <div class="image">
+        <img src="https://i.postimg.cc/qqxb3zTs/sp.jpg" alt="ok">
+    </div>
+</body>
+</html>

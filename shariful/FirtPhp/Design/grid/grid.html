@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+        grid-gap: 5px;
+        grid-auto-rows: minmax(55px,auto);
+        grid-auto-columns: minmax(50px,auto);
+    }
+    .items{
+        background-color: lightcoral;
+        border: 2px solid green;
+        border-radius: 3px;
+    }
+    #items-1{
+        grid-row-start: 1;
+        grid-row-end: 13;
+    }
+    #items-2{
+        grid-row-start: 1;
+        grid-row-end: 7;
+    }
+    #items-3{
+        grid-row-start: 7;
+        grid-row-end: 13;
+    }
+    #items-4{
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    #items-5{
+        grid-row-start: 4;
+        grid-row-end: 7;
+    }
+    #items-6{
+        grid-row-start: 7;
+        grid-row-end: 10;
+    }
+    #items-7{
+        grid-row-start: 10;
+        grid-row-end: 13;
+    }
+    #items-8{
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #items-9{
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    #items-10{
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    #items-11{
+        grid-row-start:7;
+        grid-row-end: 9;
+    }
+    #items-12{
+        grid-row-start: 9;
+        grid-row-end: 11;
+    }
+    #items-13{
+        grid-row-start: 11;
+        grid-row-end: 13;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="items" id="items-1">Dabba 1</div>
+        <div class="items" id="items-2">Dabba 2</div>
+        <div class="items" id="items-3">Dabba 3</div>
+        <div class="items" id="items-4">Dabba 4</div>
+        <div class="items" id="items-5">Dabba 5</div>
+        <div class="items" id="items-6">Dabba 6</div>
+        <div class="items" id="items-7">Dabba 7</div>
+        <div class="items" id="items-8">Dabba 8</div>
+        <div class="items" id="items-9">Dabba 9</div>
+        <div class="items" id="items-10">Dabba 10</div>
+        <div class="items" id="items-11">Dabba 11</div>
+        <div class="items" id="items-12">Dabba 12</div>
+        <div class="items" id="items-13">Dabba 13</div>
+        <div class="items" id="items-14">Dabba 14</div>
+        <div class="items" id="items-15">Dabba 15</div>
+        <div class="items" id="items-16">Dabba 16</div>
+        <div class="items" id="items-17">Dabba 17</div>
+        <div class="items" id="items-18">Dabba 18</div>
+        <div class="items" id="items-19">Dabba 19</div>
+        <div class="items" id="items-20">Dabba 20</div>
+        <div class="items" id="items-21">Dabba 21</div>
+        <div class="items" id="items-22">Dabba 22</div>
+        <div class="items" id="items-23">Dabba 23</div>
+        <div class="items" id="items-24">Dabba 24</div>
+        <div class="items" id="items-25">Dabba 25</div>
+    </div>
+</body>
+</html>
