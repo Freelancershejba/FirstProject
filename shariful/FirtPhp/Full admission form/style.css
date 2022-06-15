@@ -1,0 +1,128 @@
+/* Default css */
+
+.main_area_title{
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main_area_title h2{
+    color: #960808;
+}
+
+
+/* Main_page css */
+
+.header_section{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background-color: tomato;
+    position: sticky;
+    top: 0;
+}
+.head_title h1{
+    color: #fff;
+}
+.head_title h3{
+    color: #ddd;
+}
+.side_area{
+    background-color: #ddd;
+    height: 84.5vh;
+    position: sticky;
+    top: 117px;
+    overflow-wrap: break-word;
+}
+.side_area .menu{
+    margin-top: 20px;
+}
+.side_area .menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.side_area .menu ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.side_area .menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.main_area{
+    background-color: #fff;
+    height: 10000px;
+}
+
+
+/* Form css */
+
+.sm {
+    color: tomato;
+    font-weight: bold;
+}
+
+.R_alert {
+    color: red;
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+.G_alert {
+    color: green;
+    background-color: #ddd;
+    padding: 5px 8px;
+    font-weight: bold;
+}
+
+
+
+/* Student_Info css */
+form .search_form {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+form .search_form input {
+    width: 80%;
+    padding: 10px;
+
+
+}
+
+form .search_form button {
+    width: 19%;
+    margin-left: 8px;
+    padding: 10px;
+
+}
+
+
+
+
+span {
+    color: yellow !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid #a3a3a3;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
